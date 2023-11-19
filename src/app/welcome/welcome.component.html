@@ -1,0 +1,414 @@
+<head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></head>
+<body>
+
+<section class="header">
+
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <div class="container-fluid">
+      <a class="navbar-brand mt-4 text-center" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 mt-4 text-center">
+          <li class="nav-item ">
+            <a class="nav-link active " aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Account</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Message</a>
+          </li>
+          
+            
+        </ul>
+       
+      </div>
+    </div>
+  </nav>
+
+</section>
+
+
+
+
+  <section class="bg-color">
+  <div class="container">
+    <div class="title">
+      <p>The best Pour Elle</p>
+      <h1><span>Pour</span>Elle</h1>
+    </div>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card">
+          <div class="card-main">
+            <div class="discount">9%</div>
+            <div class="label label-green">pre-order</div>
+
+            <div class="product-container">
+              <div class="p">
+                <img
+                  src="https://img.freepik.com/free-photo/top-view-makeup-products-aligned-table_23-2148301785.jpg"
+                  alt="ph1"
+                />
+              </div>
+              <div class="p" (mouseover)="changeImage($event)">
+                <img
+                  src="https://us.123rf.com/450wm/stassi/stassi1803/stassi180300123/98605856-cosm%C3%A9tiques-d%C3%A9coratifs-couleur-sur-fond-rose-style-isom%C3%A9trique.jpg?ver=6"
+                  alt="ph2"
+                />
+              </div>
+              <div class="p" (mouseover)="changeImage($event)">
+                <img
+                  src="https://ddvql06zg3s2o.cloudfront.net/Assets/res/imgs/creative/20wk22/v_kr_makeup.jpg"
+                  alt="ph3"
+                />
+              </div>
+            </div>
+            <div class="image" (mouseover)="changeImage($event)">
+              <img
+                src="{{url}}"
+                alt="ph1"
+              />
+            </div>
+            <div class="cart-line"></div>
+            <div class="cart-item">
+              <ul>
+                <li>
+                  <a href=""><i class="fa fa-shopping-basket"></i></a>
+                </li>
+                <li>
+                  <a href=""><i class="fa fa-heart"></i></a>
+                </li>
+                <li>
+                  <a href=""><i class="fa fa-search"></i></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="content">
+            <a href="">Evaluation</a>
+            <div class="rating">
+              <i class="fa fa-star-o"></i>
+              <i class="fa fa-star-o"></i>
+              <i class="fa fa-star-o"></i>
+              <i class="fa fa-star-o"></i>
+              <i class="fa fa-star-o"></i>
+              <p><span class="money">40DT</span><span class="old-price">8DT</span></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <div class="card-main">
+            <div class="discount">9%</div>
+            <div class="label label-green">jj</div>
+
+            <div class="product-container">
+              <div class="p">
+                <img
+                  src="https://img.freepik.com/free-photo/top-view-makeup-products-aligned-table_23-2148301785.jpg"
+                  alt="ph1"
+                />
+              </div>
+              <div class="p" (mouseover)="changeImage($event)">
+                <img
+                  src="https://us.123rf.com/450wm/stassi/stassi1803/stassi180300123/98605856-cosm%C3%A9tiques-d%C3%A9coratifs-couleur-sur-fond-rose-style-isom%C3%A9trique.jpg?ver=6"
+                  alt="ph2"
+                />
+              </div>
+              <div class="p" (mouseover)="changeImage($event)">
+                <img
+                  src="https://ddvql06zg3s2o.cloudfront.net/Assets/res/imgs/creative/20wk22/v_kr_makeup.jpg"
+                  alt="ph3"
+                />
+              </div>
+            </div>
+            <div class="image" (mouseover)="changeImage($event)">
+              <img
+                src="{{url}}"
+                alt="ph1"
+              />
+            </div>
+            <div class="cart-line"></div>
+            <div class="cart-item">
+              <ul>
+                <li>
+                  <a href=""><i class="fa fa-shopping-basket"></i></a>
+                </li>
+                <li>
+                  <a href=""><i class="fa fa-heart"></i></a>
+                </li>
+                <li>
+                  <a href=""><i class="fa fa-search"></i></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="content">
+            <a href="">Evaluation</a>
+            <div class="rating">
+              <i class="fa fa-star-o"></i>
+              <i class="fa fa-star-o"></i>
+              <i class="fa fa-star-o"></i>
+              <i class="fa fa-star-o"></i>
+              <i class="fa fa-star-o"></i>
+              <p><span class="money">40DT</span><span class="old-price">8DT</span></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <div class="card-main">
+            <div class="discount">9%</div>
+            <div class="label label-green">jj</div>
+
+            <div class="product-container">
+              <div class="p">
+                <img
+                  src="https://img.freepik.com/free-photo/top-view-makeup-products-aligned-table_23-2148301785.jpg"
+                  alt="ph1"
+                />
+              </div>
+              <div class="p" (mouseover)="changeImage($event)">
+                <img
+                  src="https://us.123rf.com/450wm/stassi/stassi1803/stassi180300123/98605856-cosm%C3%A9tiques-d%C3%A9coratifs-couleur-sur-fond-rose-style-isom%C3%A9trique.jpg?ver=6"
+                  alt="ph2"
+                />
+              </div>
+              <div class="p" (mouseover)="changeImage($event)">
+                <img
+                  src="https://ddvql06zg3s2o.cloudfront.net/Assets/res/imgs/creative/20wk22/v_kr_makeup.jpg"
+                  alt="ph3"
+                />
+              </div>
+            </div>
+            <div class="image" (mouseover)="changeImage($event)">
+              <img
+                src="{{url}}"
+                alt="ph1"
+              />
+            </div>
+            <div class="cart-line"></div>
+            <div class="cart-item">
+              <ul>
+                <li>
+                  <a href=""><i class="fa fa-shopping-basket"></i></a>
+                </li>
+                <li>
+                  <a href=""><i class="fa fa-heart"></i></a>
+                </li>
+                <li>
+                  <a href=""><i class="fa fa-search"></i></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="content">
+            <a href="">Evaluation</a>
+            <div class="rating">
+              <i class="fa fa-star-o"></i>
+              <i class="fa fa-star-o"></i>
+              <i class="fa fa-star-o"></i>
+              <i class="fa fa-star-o"></i>
+              <i class="fa fa-star-o"></i>
+              <p><span class="money">40DT</span><span class="old-price">8DT</span></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <HR>
+      <div class="col-md-4">
+        <div class="card">
+          <div class="card-main">
+            <div class="discount">9%</div>
+            <div class="label label-green">jj</div>
+
+            <div class="product-container">
+              <div class="p">
+                <img
+                  src="https://img.freepik.com/free-photo/top-view-makeup-products-aligned-table_23-2148301785.jpg"
+                  alt="ph1"
+                />
+              </div>
+              <div class="p" (mouseover)="changeImage($event)">
+                <img
+                  src="https://us.123rf.com/450wm/stassi/stassi1803/stassi180300123/98605856-cosm%C3%A9tiques-d%C3%A9coratifs-couleur-sur-fond-rose-style-isom%C3%A9trique.jpg?ver=6"
+                  alt="ph2"
+                />
+              </div>
+              <div class="p" (mouseover)="changeImage($event)">
+                <img
+                  src="https://ddvql06zg3s2o.cloudfront.net/Assets/res/imgs/creative/20wk22/v_kr_makeup.jpg"
+                  alt="ph3"
+                />
+              </div>
+            </div>
+            <div class="image" (mouseover)="changeImage($event)">
+              <img
+                src="{{url}}"
+                alt="ph1"
+              />
+            </div>
+            <div class="cart-line"></div>
+            <div class="cart-item">
+              <ul>
+                <li>
+                  <a href=""><i class="fa fa-shopping-basket"></i></a>
+                </li>
+                <li>
+                  <a href=""><i class="fa fa-heart"></i></a>
+                </li>
+                <li>
+                  <a href=""><i class="fa fa-search"></i></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="content">
+            <a href="">Evaluation</a>
+            <div class="rating">
+              <i class="fa fa-star-o"></i>
+              <i class="fa fa-star-o"></i>
+              <i class="fa fa-star-o"></i>
+              <i class="fa fa-star-o"></i>
+              <i class="fa fa-star-o"></i>
+              <p><span class="money">40DT</span><span class="old-price">8DT</span></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+        <div class="col-md-4">
+          <div class="card">
+            <div class="card-main">
+              <div class="discount">9%</div>
+              <div class="label label-green">jj</div>
+  
+              <div class="product-container">
+                <div class="p">
+                  <img
+                    src="https://img.freepik.com/free-photo/top-view-makeup-products-aligned-table_23-2148301785.jpg"
+                    alt="ph1"
+                  />
+                </div>
+                <div class="p" (mouseover)="changeImage($event)">
+                  <img
+                    src="https://us.123rf.com/450wm/stassi/stassi1803/stassi180300123/98605856-cosm%C3%A9tiques-d%C3%A9coratifs-couleur-sur-fond-rose-style-isom%C3%A9trique.jpg?ver=6"
+                    alt="ph2"
+                  />
+                </div>
+                <div class="p" (mouseover)="changeImage($event)">
+                  <img
+                    src="https://ddvql06zg3s2o.cloudfront.net/Assets/res/imgs/creative/20wk22/v_kr_makeup.jpg"
+                    alt="ph3"
+                  />
+                </div>
+              </div>
+              <div class="image" (mouseover)="changeImage($event)">
+                <img
+                  src="{{url}}"
+                  alt="ph1"
+                />
+              </div>
+              <div class="cart-line"></div>
+              <div class="cart-item">
+                <ul>
+                  <li>
+                    <a href=""><i class="fa fa-shopping-basket"></i></a>
+                  </li>
+                  <li>
+                    <a href=""><i class="fa fa-heart"></i></a>
+                  </li>
+                  <li>
+                    <a href=""><i class="fa fa-search"></i></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="content">
+              <a href="">Evaluation</a>
+              <div class="rating">
+                <i class="fa fa-star-o"></i>
+                <i class="fa fa-star-o"></i>
+                <i class="fa fa-star-o"></i>
+                <i class="fa fa-star-o"></i>
+                <i class="fa fa-star-o"></i>
+                <p><span class="money">40DT</span><span class="old-price">8DT</span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      <div class="col-md-4">
+        <div class="card">
+          <div class="card-main">
+            <div class="discount">9%</div>
+            <div class="label label-green">jj</div>
+
+            <div class="product-container">
+              <div class="p">
+                <img
+                  src="https://img.freepik.com/free-photo/top-view-makeup-products-aligned-table_23-2148301785.jpg"
+                  alt="ph1"
+                />
+              </div>
+              <div class="p" (mouseover)="changeImage($event)">
+                <img
+                  src="https://us.123rf.com/450wm/stassi/stassi1803/stassi180300123/98605856-cosm%C3%A9tiques-d%C3%A9coratifs-couleur-sur-fond-rose-style-isom%C3%A9trique.jpg?ver=6"
+                  alt="ph2"
+                />
+              </div>
+              <div class="p" (mouseover)="changeImage($event)">
+                <img
+                  src="https://ddvql06zg3s2o.cloudfront.net/Assets/res/imgs/creative/20wk22/v_kr_makeup.jpg"
+                  alt="ph3"
+                />
+              </div>
+            </div>
+            <div class="image" (mouseover)="changeImage($event)">
+              <img
+                [src]='url'
+                alt="ph1"
+              />
+            </div>
+            <div class="cart-line"></div>
+            <div class="cart-item">
+              <ul>
+                <li>
+                  <a href=""><i class="fa fa-shopping-basket"></i></a>
+                </li>
+                <li>
+                  <a href=""><i class="fa fa-heart"></i></a>
+                </li>
+                <li>
+                  <a href=""><i class="fa fa-search"></i></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="content">
+            <a href="">Evaluation</a>
+            <div class="rating">
+              <i class="fa fa-star-o"></i>
+              <i class="fa fa-star-o"></i>
+              <i class="fa fa-star-o"></i>
+              <i class="fa fa-star-o"></i>
+              <i class="fa fa-star-o"></i>
+              <p><span class="money">40DT</span><span class="old-price">8DT</span></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+</body>

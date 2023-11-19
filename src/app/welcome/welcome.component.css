@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400&display=swap');
+.bg-color{
+  background: #eee;
+  padding: 60px 0;
+  font-family: 'Roborto',sans-serif;
+}
+.container{
+  width: 90%;
+  margin: 0 auto;
+}
+.title{
+  margin-bottom: 50px;
+  text-align: center;
+  position:relative;
+}
+.title::before{
+  width: 200px;
+  content: '';
+  height:3px;
+  background: #dbdbdb;
+  opacity: .6;
+}
+.title p{
+  color: #999;
+  font-style: italic;
+  font-weight: 700;
+  margin: 0;
+}
+.title h1{
+  font-size: 44px;
+  color: #131313;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+.title h1 span{
+  color:rgb(143, 71, 143);
+}
+.card{
+  transition: all .2s ease-in-out;
+  border-radius: 3px;
+}
+.card-main{
+  position: relative;
+}
+.discount{
+  position: absolute;
+  background: rgb(198, 57, 198);
+  font-weight: 700;
+  color: #fff;
+  text-align: center;
+  display: block;
+  text-transform: uppercase;
+  height: 30px;
+  width: 70px;
+  border-radius: 0 15px 15px 0;
+  line-height: 30px;
+  font-style: italic;
+  left:-9px;
+  top:30px;
+}
+.discount::after{
+  border-top: 6px solid rgb(165, 106, 165);
+  content:'';
+  position: absolute;
+  bottom: -6px;
+  left:0;
+  border-left: 8px solid transparent;
+  border-right: 0px solid transparent;
+
+}
+.label{
+  position: absolute;
+  bottom: 84px;
+  left:10px;
+  font-size: 10px;
+  font-weight: 400;
+  text-transform: uppercase;
+  z-index: 2px;
+  line-height: 100%;
+  color:#fff;
+  border-radius: 3px;
+  padding: 5px 8px;
+}
+.label-green{
+  background: green;
+
+}
+.image img{
+  width: 100%;
+  height: 100%;
+
+}
+.cart-line{
+  height: 2px;
+  background: #f1f1f1;
+}
+.cart-item{
+  text-align: center;
+  line-height: 45px;
+  background: #111;
+  transition:all 1s ease-in-out;
+  position: relative;
+  top:-30px
+}
+.cart-item ul{
+  padding: 0;
+  margin: 0;
+}
+.cart-item ul li{
+  display: inline-block;
+  list-style-type: none;
+  position: relative;
+}
+.cart-item ul li::after{
+  content:'';
+  width: 1px;
+  height: 18px;
+  background: (255,255,255,.15);
+  position: absolute;
+  left: -2px;
+  top: 10px;
+}
+
+.cart-item ul li a{
+  padding: 0 18px;
+  color: #ccc;
+}
+.cart-item ul li a:hover{
+  color:purple
+}
+.product-container{
+  position: absolute;
+  right:-40px;
+  top:10px;
+  z-index: 4;
+  transition: 0.6s;
+  opacity: 0;
+}
+.p{
+  border: 1px solid (233,233,233);
+  border-radius: 2px;
+  height: 40px;
+  width: 40px;
+  cursor:pointer;
+}
+.p img{
+  height: 100%;
+  width: 100%;
+  opacity: 0.8;
+}
+.p img:hover{
+  opacity: 1;
+}
+.card:hover .product-container{
+  opacity: 1;
+  right: 10px;
+}
+.content{
+  padding: 16px 0;
+  text-align: center;
+}
+.content a{
+  font-size: 16px;
+  color:#555;
+  font-weight: 700;
+  text-transform: capitalize;
+  transition:all .3s;
+}
+.content a:hover{
+  color: purple;
+  text-decoration: none;
+}
+.rating i{
+  color: purple;
+  line-height: 22px;
+  margin: 0 2px;
+  font-size: 12px;
+} 
+.content p{
+  margin-bottom: 0;
+}
+.content .money{
+  font-size: 20px;
+  color:purple;
+  font-weight: 700;
+  font-style: italic;
+  margin-right: 6px;
+}
+.content .old-price{
+  line-height: 18px;
+  text-decoration: line-through;
+  color: #888;
+  font-style: italic;
+
+}
+
+
+*{
+  margin: 0px;
+  padding: 0px;box-sizing: border-box;
+  bottom: 10px;
+
+}
+.header{
+  width: 100%;
+  background-image: linear-gradient(to right, rgb(129, 51, 129) , rgb(238, 192, 255)
+  );
+ 
+
+}
+.navbar-brand{
+  color: white!important;
+}
+.nav-link{
+  color: white!important;
+}
+.nav-link:hover{
+  color: purple!important;
+}
